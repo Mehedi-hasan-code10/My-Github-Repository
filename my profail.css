@@ -595,63 +595,71 @@ input{
 
 /* Responsive */
 
-@media screen and (max-width:576px) {
-    /* .menu{
+@media screen and (max-width:720px) {
+    .menu{
 height: 60px;
-    } */
+
+    }
 
     .logo-img{
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
         border-radius: 50%;
     }
 
     .menu-h1{
-        margin-left: 60px;
+        margin-left: 20px;
         margin-top: 12px;
         font-size: 15px;
     }
    .menu-ul{
     display: flex;
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-left: 50px;
 }
 .menu-li{
     list-style: none;
     margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
 .menu-list{
     color: white;
     font-weight: 300;
     font-size: 10px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
     /* border: 1px solid red; */
 }
 
 .search{
-    width: 120px;
-    height: 60px;
+    /* display: none; */
+    width: 160px;
+    height: 40px;
     /* border: 1px solid rgb(23, 51, 150); */
-    margin-right: 5px;
-    margin-top: 10px;
+   
+    margin-right: 50px;
+    margin-top: 15px;
     display: flex;
+    
 }
 
 
 .search-input{
-    width: 100px;
+    width: 90px;
     height: 30px;
     /* border: 1px solid yellow; */
     padding: 5px;
     margin-top: 0px;
-    /* border-top-left-radius:3px ;
-     border-bottom-left-radius:3px ; */
+    border-radius: 5px;
     
 }
 .search-btn{
-    width: 55px;
+    display: none;
+    /* width: 35px;
     height: 33px;
     margin-left: -5px;
     margin-top: 0px;
@@ -659,7 +667,7 @@ height: 60px;
     border-radius:3px;
      border-bottom-right-radius:5px;
      background-color: yellow;
-    /* border-left: 1px solid yellow; */
+    border-left: 1px solid yellow; */
 }
 
 
@@ -721,7 +729,7 @@ i{
 
 .btn{
     width: 50px;
-    height: 30px;
+    height: 25px;
     font-size: 10px;
     color: white;
     background-color: var(--main-color);
@@ -743,7 +751,7 @@ i{
 }
 .btn2{
     width: 50px;
-    height: 30px;
+    height: 25px;
     padding: 5px;
     font-size: 10px;
     color: rgb(7, 7, 7);
@@ -783,8 +791,9 @@ i{
 
 
 .a-img{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
+    /* margin-left: 50px; */
     margin-top: 20px;
     border-radius: 50%;
     box-shadow: 0 0 20px var(--main-color);
@@ -800,7 +809,7 @@ i{
     height: 380px;
    
     /* border: 1px solid rgb(12, 229, 215); */
-    margin-right: 30px;
+    margin-right: 50px;
     margin-top: 50px;
 }
 .about{
@@ -912,6 +921,101 @@ width: 155px;
 }
 .langauge-cart-p{
     margin-top: 10px;
+    padding: 5px;
+}
+
+.form-div{
+    width:705px;
+    height: 1000px;
+    margin-top: 35px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+form{
+    height: 450px;
+    width: 400px;
+    border: 1px solid var(--main-color);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+     /* background-color: rgba(47, 218, 35, 0.266);
+    box-shadow: inset -5px -5px -5px -5px rgba(221, 216, 216, 0.349); */
+}
+input{
+    padding: 20px;
+    width: 330px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--main-color);
+    width: 200px;
+}
+.form-h1{
+    color: rgb(255, 0, 170);
+    margin-top: 15px;
+}
+.btn5{
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    transform: scale(1.2);
+    padding: 5px;
+  margin-top: 30px;
+     transition: 0.3s ease;
+    
+}
+.btn5:hover{
+     box-shadow: 0 0 25px var(--main-color);
+     width: 110px;
+    height: 40px;
+
+
+}
+.msg{
+    width: 300px;
+    height: 250px;
+    /* margin-right: 200px; */
+    font-size: 30px;
+    display: block;
+
+}
+.send-msg{
+    width: 350px;
+    height: 500px;
+     margin-right: 200px;
+    /* border: 1px solid yellow; */
+}
+
+.btn6{
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    transform: scale(1.2);
+    padding: 5px;
+  margin-top: 30px;
+  margin-left: 100px;
+  
+  
+     transition: 0.3s ease;
+    
+}
+.btn6:hover{
+     box-shadow: 0 0 25px var(--main-color);
+     width: 160px;
+    height: 40px;
+
+
 }
 
 }
