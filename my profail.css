@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: #080808;
+    background-color: var(--sec-bg-color);
+    border: 2px solid red;
 }
 :root{
     --main-color:#00ff51;
@@ -1118,7 +1119,7 @@ width: 100%;
     display: flex;
     /* flex-direction: column;
     flex-direction: column-reverse; */
-    margin-left: 10px;
+    margin-left:0px;
     border: 1px solid green;
 }
 .bio{
@@ -1262,8 +1263,8 @@ i{
     height: 450px;
     border: 1px solid white;
     /* display: flex; */
-    margin-left: 10px;
-    background-color: var(--sec-bg-color); */
+    margin-left:0px;
+    background-color: var(--sec-bg-color);
 }
 .a-h1{
     color: var(--main-color);
@@ -1300,6 +1301,191 @@ i{
 }
 
 
+/* skill start */
 
+.skill-langauge{
+    width: 100%;
+    height: 650px;
+    border: 1px solid aqua;
+    margin: 0 0px;
+    display: flex;
+    
+     /* justify-content: space-between; */
+     flex-wrap: wrap;
+     gap: 20px;
+}
+
+.logo-skill{
+    width: 150px;
+    height: 70px;
+    /* border: 1px solid yellow; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-skill-img{
+    width: 80px;
+    height: 65px;
+    margin-left: 20px;
+    margin-right: 7px;
+    margin-top: 10px;
+    background-color: #407447;
+    border-radius: 5px;
+}
+
+.langauge-cart{
+    width: 150px;
+    height: 300px;
+    /* border: 1px solid red; */
+    background-color:var(--main-color);
+    margin-top: 15px;
+    margin-left: 35px;
+    border-radius: 5px;
+    box-shadow: inset -3PX -3PX rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+   
+    transition: 0.5s ease;
+}
+
+.langauge-cart:hover{
+width: 155px;
+    height: 270px;
+    background-color: black;  
+    box-shadow: 0 0 20px var(--main-color);
+}
+.langauge-cart-h1{
+    font-size: 15px;
+}
+
+.langauge-cart-h1,.langauge-cart-p{
+       color: rgb(51, 6, 96);
+}
+
+
+.langauge-cart-about{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.langauge-cart-p{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* form start here */
+
+.form-div{
+    width:100%;
+    height: 850px;
+    margin-top: 30px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+form{
+    height: 400px;
+    width: 400px;
+    border: 1px solid var(--main-color);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+     /* background-color: rgba(47, 218, 35, 0.266);
+    box-shadow: inset -5px -5px -5px -5px rgba(221, 216, 216, 0.349); */
+}
+input{
+    padding: 20px;
+    
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--main-color);
+    width: 170px;
+}
+.form-h1{
+    color: rgb(255, 0, 170);
+    margin-top: 15px;
+}
+.btn5{
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    transform: scale(1.2);
+    padding: 5px;
+  margin-top: 30px;
+     transition: 0.3s ease;
+    
+}
+.btn5:hover{
+     box-shadow: 0 0 25px var(--main-color);
+     width: 110px;
+    height: 40px;
+
+
+}
+.msg{
+    width: 300px;
+    height: 250px;
+    /* margin-right: 200px; */
+    font-size: 30px;
+    display: block;
+
+}
+.send-msg{
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+     /* margin-right: 200px; */
+    /* border: 1px solid yellow; */
+}
+
+.btn6{
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    transform: scale(1.2);
+    padding: 5px;
+  margin-top: 30px;
+  margin-left: 100px;
+  
+  
+     transition: 0.3s ease;
+    
+}
+.btn6:hover{
+     box-shadow: 0 0 25px var(--main-color);
+     width: 160px;
+    height: 40px;
+
+
+}
+
+/* footer */
+
+
+.foter{
+    width: 100%;
+    height: 200px;
+    background-color: #080808;
+    /* overflow: hidden; */
+    border: 1px solid rgb(32, 9, 206);
+}
+
+.foter2-child{
+    width: 600px;
+    height: 300px;
+    /* border: 1px solid yellow; */
+    margin: 0 auto;
+    text-align: center;
+}
 
 }
