@@ -1,8 +1,9 @@
 
-.open-sans-normal{
+
+.open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
+  font-weight: 700;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -10,8 +11,11 @@
 
 
 .header{
+      background-color: black;
     background-image: url(images/Banner\ Image.png);
     background-repeat: no-repeat;
+    
+    /* opacity: 60%; */
     width:1320px;
     height: 600px;
     margin: 50px auto;
@@ -146,14 +150,87 @@
 
 .lal{
     width: 1320px;
+    /* border: 1px solid red; */
     height: 880px;
     /* border: 1px solid green; */
     margin: 0 auto;
     background-image: url(images/Group\ 75.png),url(images/Rectangle\ 2.png) ;
     background-repeat: no-repeat;
     background-position: bottom left ,bottom;
+    position: relative;
 }
 
 .lal-img{
-    
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 350px;
+    width: 305px;
+    height: 305px;
+}
+.yehao{
+    width: 1320px;
+    height:616px;
+    border: 1px solid green;
+    text-align: center;
+    margin: 10px auto;
+   
+}
+.y-h1,.y-p{
+    color: black;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.y-btn{
+  
+    margin-left:-15px;
+    padding: 12px;
+    border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    border: none;
+    background-color: red;
+}
+
+.red-img{
+    width: 1320px;
+    height: 985px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.discount{
+    top: -200px;
+    left: 400px;
+    position: relative;
+}
+.gift-box{
+    /* margin-left: 50px; */
+    margin-top: 200px;
+    width: 600px;
+
+}
+.r-t{
+    width: 1065px;
+    height: 260px;
+    border: 1px solid green;
+    margin: 0 auto;
+}
+.r-h1,.r-h2,.r-p{
+   text-align: center;
+    color: black;
+}
+.r-h1{
+    line-height: 10px;
+    font-size: 60px;
+    color: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pp{
+    color: black;
+   
 }
